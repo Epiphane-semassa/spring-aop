@@ -39,7 +39,7 @@ public class PaymentAspect {
             result = joinPoint.proceed(); // Execution de la methode cible
             out.println("Après Around : Méthode exécutée avec succès.");
         } catch (Exception exception) {
-            err.println("Après Around : Exception interceptée.");
+            err.println("Après Around : Exception interceptée et interrompue.");
             throw exception;
         }
 
