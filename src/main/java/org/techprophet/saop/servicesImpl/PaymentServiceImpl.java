@@ -16,7 +16,7 @@ public class PaymentServiceImpl implements PaymentService {
 
         out.println("Traitement du paiement pour l'utilisateur : " + userId);
 
-        return "Paiement de " + amount + " résussie.";
+        return "Paiement de " + amount + " effectué avec succès.";
     }
 
 }
